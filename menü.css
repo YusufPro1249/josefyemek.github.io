@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('../img/backgroundimg.jpg'); /* Arka plan resminin yolu */
+    background-image: url('./img/backgroundimg.jpg'); /* Arka plan resminin yolu */
     background-size: cover; /* Resmi kapsayıcıyı tamamen kaplayacak şekilde boyutlandırır */
     background-position: center; /* Resmi ortalar */
     background-repeat: no-repeat; /* Resmin tekrarını kapatır */
