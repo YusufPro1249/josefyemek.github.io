@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/backgroundimg.jpg); /* Arka plan resminin yolu */
+    background-size: cover; /* Resmi kapsayıcıyı tamamen kaplayacak şekilde boyutlandırır */
+    background-position: center; /* Resmi ortalar */
+    background-repeat: no-repeat; /* Resmin tekrarını kapatır */
+    height: 100vh; /* Tam ekran yüksekliği */
+    font-family: "Roboto", sans; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.navbar{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Roboto", sans;
+}
+.navbar ul .login a i{
+    position: relative;
+    right: 20px;
+}
+.navbar ul .login a{
+    position: relative;
+    left: 100px;
+}
+.navbar ul li a:hover{
+  color: lightgray;
+  text-decoration: underline #faedcd;
+  transition: 0.5s;
+}
+
+.menu{
+    height: 1700px;
+}
+.menu .title{
+    display: inline-block;
+    position: absolute;
+    left: 43%;
+    top: 125%;
+}
+.menu .hamburgerler{
+    position: absolute;
+    left: 43%;
+    top: 135%;
+}
+.menu .row1{
+    display: grid;
+    height: 250px;
+    position: absolute;
+    top: 140%;
+    grid-template-columns:  repeat(5, 200px);
+    gap: 10px;
+    padding: 0 210px;
+}
+.menu .row1 .hamburger1{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+}
+.menu .row1 .hamburger1 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row1 .hamburger1 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row1 .hamburger1 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+.menu .row1 .hamburger2{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.menu .row1 .hamburger2 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row1 .hamburger2 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row1 .hamburger2 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+.menu .row1 .hamburger3{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+}
+.menu .row1 .hamburger3 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row1 .hamburger3 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row1 .hamburger3 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+
+.menu .row1 .hamburger4{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+}
+.menu .row1 .hamburger4 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row1 .hamburger4 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row1 .hamburger4 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+
+.menu .row1 .hamburger5{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.menu .row1 .hamburger5 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row1 .hamburger5 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row1 .hamburger5 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+.menu .row2{
+    display: grid;
+    height: 250px;
+    position: absolute;
+    top: 190%;
+    grid-template-columns:  repeat(5, 200px);
+    gap: 10px;
+    padding: 0 210px;
+}
+.menu .pizzalar{
+    position: absolute;
+    left: 45%;
+    top: 185%;
+}
+.menu .row2 .pizza1{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 290px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+}
+.menu .row2 .pizza1 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row2 .pizza1 h2{
+    /* position: relative;
+    left: 65px; */
+    display: flex;
+    justify-content: center;
+}
+.menu .row2 .pizza1 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+.menu .row2 .pizza2{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 290px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.menu .row2 .pizza2 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row2 .pizza2 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row2 .pizza2 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+.menu .row2 .pizza3{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: grid;
+    width: 200px;
+    height: 290px;
+    border: 1px solid lightgrey;
+}
+.menu .row2 .pizza3 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row2 .pizza3 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row2 .pizza3 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+
+.menu .row2 .pizza4{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: grid;
+    width: 200px;
+    height: 290px;
+    border: 1px solid lightgrey;
+}
+.menu .row2 .pizza4 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row2 .pizza4 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row2 .pizza4 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+
+.menu .row2 .pizza5{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 290px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.menu .row2 .pizza5 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row2 .pizza5 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row2 .pizza5 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+.menu .dürümler{
+    position: absolute;
+    left: 45%;
+    top: 245%;
+}
+.menu .row3{
+    display: grid;
+    height: 245px;
+    position: absolute;
+    top: 250%;
+    grid-template-columns:  repeat(5, 200px);
+    gap: 10px;
+    padding: 0 210px;
+}
+.menu .row3 .dürüm1{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 260px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+}
+.menu .row3 .dürüm1 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row3 .dürüm1 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row3 .dürüm1 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+.menu .row3 .dürüm2{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.menu .row3 .dürüm2 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row3 .dürüm2 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row3 .dürüm2 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+.menu .row3 .dürüm3{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+}
+.menu .row3 .dürüm3 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row3 .dürüm3 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row3 .dürüm3 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+
+.menu .row3 .dürüm4{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+}
+.menu .row3 .dürüm4 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row3 .dürüm4 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row3 .dürüm4 h3{
+    position: relative;
+    left:  6px;
+}
+
+
+
+
+
+.menu .row3 .dürüm5{
+    cursor: pointer;
+    display: grid;
+    width: 200px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.menu .row3 .dürüm5 img{
+    width: 200px;
+    position: relative;
+}
+.menu .row3 .dürüm5 h2{
+    display: flex;
+    justify-content: center;
+}
+.menu .row3 .dürüm5 h3{
+    position: relative;
+    left:  6px;
+}

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/backgroundimg.jpg); /* Arka plan resminin yolu */
+    background-size: cover; /* Resmi kapsayıcıyı tamamen kaplayacak şekilde boyutlandırır */
+    background-position: center; /* Resmi ortalar */
+    background-repeat: no-repeat; /* Resmin tekrarını kapatır */
+    height: 100vh; /* Tam ekran yüksekliği */
+}
+.navbar{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Roboto", sans;
+}
+.navbar ul .login a i{
+    position: relative;
+    right: 20px;
+}
+.navbar ul .login a{
+    position: relative;
+    left: 100px;
+}
+.navbar ul li a:hover{
+  color: lightgray;
+  text-decoration: underline #faedcd;
+  transition: 0.5s;
+}
+
+.center{ 
+    color: white;
+    display: flex;
+    display: block;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    height: 300px;
+    width: 500px;
+    z-index: -1;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.center h1{
+    font-size: xx-large;
+    color: black;
+    font-family: "Roboto", sans;
+}
+.center p{
+    margin-right: 500px;
+    position: relative;
+    right: 80px;
+}
+.center button {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    background-color: #dda15e;
+    border: none;
+    font-size: large;
+    border-radius: 20px;
+}
+.center button a{
+    text-decoration: none;
+    color: #fefae0;
+}
