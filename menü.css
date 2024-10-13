@@ -485,7 +485,7 @@ body{
         #openMenu {
             position: fixed;
             width: 200px;
-            height: 800px;
+            height: 900px;
             background-color: black;
             z-index: 5;
             left: -200px; 
@@ -530,14 +530,14 @@ body{
          .menu .title{
             font-family: "Roboto", sans-serif;
             position: absolute;
-            left: 115px;
+            left: 125px;
             top: 110%;
          }
 
          .menu .hamburgerler{
             font-family: "Roboto", sans-serif;
             position: absolute;
-            left: 120px;
+            left: 130px;
             top: 125%;
          }
 
@@ -549,7 +549,7 @@ body{
            grid-template-columns:  repeat(2, 5fr);
            gap: 10px;
            margin: 0 auto;
-           padding: 0 10px;
+           padding: 0 20px;
            width: 82%;
        }
          .menu .row1 .hamburger1{
@@ -652,13 +652,13 @@ body{
             grid-template-columns:  repeat(2, 5fr);
             gap: 10px;
             margin: 0 auto;
-            padding: 0 10px;
+            padding: 0 20px;
             width: 82%;
         }
         .menu .pizzalar{
             position: absolute;
             left: 40%;
-            top: 240%;
+            top: 245%;
             font-family: "Roboto", sans-serif;
         }
         .menu .row2 .pizza1{
@@ -770,11 +770,11 @@ body{
             display: grid;
             height: 100px;
             position: absolute;
-            top: 390%;
+            top: 385%;
             grid-template-columns:  repeat(2, 5fr);
             gap: 10px;
             margin: 0 auto;
-            padding: 0 10px;
+            padding: 0 20px;
             width: 82%;
         }
         .menu .row3 .dürüm1{
