@@ -20,6 +20,18 @@
         <li><a href="iletişim.html">İletişim</a></li>
         </ul>
      </div>
+
+     <div id="openMenu">
+        <ul id="menuList">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="menü.html">Menü</a></li>
+            <li><a href="hakkımızda.html">Hakkımızda</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+        </ul>
+    </div>
+
+    <i class="fa-solid fa-bars" id="menuIcon"></i>
+
      <div class="form">
         <form action="index.html">
             <h1>Bize Ulaşın</h1>
@@ -42,5 +54,18 @@
              </div>
         </form>
      </div>
+
+     <script>
+        const menuIcon = document.getElementById('menuIcon');
+      const openMenu = document.getElementById('openMenu');
+
+      menuIcon.addEventListener('click', () => {
+          if (openMenu.style.left === '-200px') {
+              openMenu.style.left = '0'; // Menü açılır
+          } else {
+              openMenu.style.left = '-200px'; // Menü kapanır
+          }
+      });
+  </script>
 </body>
 </html>
