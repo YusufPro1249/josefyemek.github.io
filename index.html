@@ -22,12 +22,39 @@
        <li><a href="iletişim.html">İletişim</a></li>
        </ul>
     </div>
+    <div id="openMenu">
+        <ul id="menuList">
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="menü.html">Menü</a></li>
+            <li><a href="hakkımızda.html">Hakkımızda</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+        </ul>
+    </div>
+
+    <i class="fa-solid fa-bars" id="menuIcon"></i>
+    
+
     <!-- Orta Kısım -->
-    <div class="box"></div>
-    <div class="center">
+    <div class="box">
        <h1>Josef Yemek</h1>
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis numquam architecto ut debitis tempora nostrum dolore amet vero quam nulla atque iure eum commodi doloremque labore dicta harum, et quisquam aperiam, fugit at hic! Eaque repellat nihil natus corrupti explicabo nobis culpa expedita numquam, consectetur voluptas doloribus quibusdam maiores dignissimos.</p>
+       <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Asperiores molestias dolor rem voluptas quia ab architecto, odio est, facilis nihil excepturi reprehenderit. Nam accusamus nisi, consectetur veritatis omnis quo mollitia quidem maiores adipisci dolores amet ex nobis eaque nostrum esse?</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi non, aliquid fugiat eius, eos cum sed consequuntur cumque nobis dolorem enim nostrum inventore illo similique temporibus distinctio soluta? Qui sit magnam fuga, impedit asperiores illum tempore sed iure. Sunt quibusdam, hic, debitis nihil a cumque, placeat odit explicabo aperiam dicta nisi dolores neque iste voluptates perspiciatis aut! Natus, optio!</p>
        <button><a href="menü.html">Menü</a></button>
     </div>
+
+  
+    <script>
+          const menuIcon = document.getElementById('menuIcon');
+        const openMenu = document.getElementById('openMenu');
+
+        menuIcon.addEventListener('click', () => {
+            if (openMenu.style.left === '-200px') {
+                openMenu.style.left = '0'; // Menü açılır
+            } else {
+                openMenu.style.left = '-200px'; // Menü kapanır
+            }
+        });
+    </script>
+    
 </body>
 </html>
