@@ -88,7 +88,7 @@
         #openMenu {
             position: fixed;
             width: 200px;
-            height: 700px;
+            height: 900px;
             background-color: black;
             z-index: 5;
             left: -200px; /* Başlangıçta görünmez yapmak için solda yerini değiştir */
